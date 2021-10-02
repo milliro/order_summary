@@ -1,0 +1,163 @@
+/* geral */
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+  max-width: 100%;
+  display: block;
+}
+
+body{
+  background: #E0E8FE;
+  background-image: url('/img/pattern-background-desktop.svg');
+  font-family: 'Red Hat Display';
+  background-repeat: no-repeat;
+  line-height: 1.4em;
+  font-size: 1rem;
+  color: #757887;
+  font-weight: 500;
+}
+
+main img{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+/*style page*/
+.container{
+  max-width: 400px;
+  background: #fff;
+  margin: 30px auto;
+  border-radius: 20px;
+}
+
+.conteudo-container{
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0px 30px;
+}
+
+.conteudo{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.conteudo h2{
+  line-height: 3em;
+}
+
+.titulo{
+  font-weight: 900;
+  color: #3B4766;
+}
+
+.conteudo-texto{
+  max-width: 350px;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.plano{
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10px;
+  background: #F8F9FE;
+  padding: 15px;
+}
+
+.plano img{
+  margin-right: 20px;
+}
+
+.plano a{
+  width: 100px;
+  text-align: right;
+  margin: 10px auto;
+  display: block;
+  font-weight: bold;
+  color: #455EE1;
+}
+
+.plano a:hover{
+  text-decoration: none;
+  color: #8D85EA;
+}
+
+.btn-proceed{
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #455EE1;
+  color: #fff;
+  box-shadow: 0px 15px 20px #DDD8F8;
+  transition: 230ms
+}
+
+.btn-proceed:hover{
+  background: #766CF1;
+}
+
+.btn-cancel{
+  display: block;
+  width: 100px;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 5px auto;
+  padding: 20px;
+  color: #757887;
+}
+
+.btn-cancel:hover{
+  color: #252E50;
+}
+
+/*media*/
+@media (max-width: 360px) {
+  
+  body{
+    font-size: .8rem;
+  }
+
+  .container{
+    max-width: 300px;
+  }
+
+  .plano{
+    padding: 10px;
+  }
+
+  .plano .titulo{
+    margin-top: 10px;
+  }
+
+  .plano img{
+    margin-top: 5px;
+  }
+
+  .plano a{
+    width: 20px;
+    padding: 10px;
+  }
+}
+
+.attribution { 
+  font-size: .8rem; 
+  text-align: center;
+  padding: 10px; 
+}
+.attribution a { 
+  text-decoration: none;
+  color: hsl(228, 45%, 44%); 
+}
+
+.attribution a:hover{
+  color: #252E50;
+}
