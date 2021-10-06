@@ -10,14 +10,23 @@ img{
 }
 
 body{
+  position: relative;
   background: #E0E8FE;
-  background-image: url('/img/pattern-background-desktop.svg');
-  font-family: 'Red Hat Display';
+  font-family: 'Red Hat Display', sans-serif;
   background-repeat: no-repeat;
   line-height: 1.4em;
   font-size: 1rem;
   color: #757887;
   font-weight: 500;
+  padding: 20px;
+}
+
+span img{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
 }
 
 main img{
@@ -27,10 +36,12 @@ main img{
 
 /*style page*/
 .container{
+  position: relative;
   max-width: 400px;
   background: #fff;
   margin: 30px auto;
   border-radius: 20px;
+  transition: 230ms;
 }
 
 .conteudo-container{
@@ -79,6 +90,7 @@ main img{
   display: block;
   font-weight: bold;
   color: #455EE1;
+  transition: 230ms;
 }
 
 .plano a:hover{
@@ -120,7 +132,7 @@ main img{
 }
 
 /*media*/
-@media (max-width: 360px) {
+@media (max-width: 500px) {
   
   body{
     font-size: .8rem;
